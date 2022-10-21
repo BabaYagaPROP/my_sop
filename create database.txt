@@ -13,11 +13,11 @@ CREATE TABLE `produkty` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
 
 
-INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (1,'Chalcanthite Copper Sulfate','test.png','',50,NULL);
+INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (1,'Chalcanthite Copper Sulfate','test.png','testowy produkt',50,NULL);
 INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (2,'Staurolite','staurolite.png','opis',119.99,NULL);
-INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (3,'Amazonite','amazonite.png','',420,NULL);
-INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (4,'Limonate quartz','limonate.png','',690,50);
-INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (5,'Koayonite quartz','kayonite.png','',150,80);
+INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (3,'Amazonite','amazonite.png','lukas był na grzybach',420,NULL);
+INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (4,'Limonate quartz','limonate.png','lukas2 nie był na grzybach',690,50);
+INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (5,'Koayonite quartz','kayonite.png','kayonite quartz',150,80);
 INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (6,'Phyllite','phyllite.png','',69,95);
 INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (7,'Lapis Lazuli','lapis.png','',129,NULL);
 INSERT INTO `produkty` (`id`,`nazwa`,`zdjecie`,`opis`,`cena`,`promocja`) VALUES (8,'Amethyst crystal','amethyst.png','',250,NULL);
