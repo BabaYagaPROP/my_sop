@@ -1,0 +1,57 @@
+.carousel-item{
+    height: 45vh;
+    min-height: 23rem;
+    background: rgb(79, 93, 117);
+    color:white;
+    position:relative;
+}
+.container{
+    position:absolute;
+    top:57%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    
+}
+
+main{
+    min-height:94.2vh;
+    background: rgb(191, 192, 192);
+}
+html{
+    scroll-behavior: smooth;
+    background: rgb(191, 192, 192);
+}
+.filter_white{
+    filter: invert(100%);
+}
+.grid_container{
+    margin-top:2rem;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+.form_container{
+    margin-top:5rem;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    justify-items: center;
+}
+#container{
+    margin-top:50%;
+}
+.contactIMG{
+position: absolute;
+top:15%;
+left:16%;
+}
+.contactRight{
+    position: absolute;
+    top:10%;
+    left:150%;
+    width:300px;
+}
