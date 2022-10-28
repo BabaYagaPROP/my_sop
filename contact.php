@@ -28,7 +28,7 @@ if(!empty($_GET['empty'])){
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Minerals Shop</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -87,9 +87,12 @@ if(!empty($_GET['empty'])){
         </div>
       </div>
     </div>
+
+    <div class="contact">
     <div class="contactIMG">
         <img src="img/self.png"  alt="test1">
-        <div class="contactRight">
+    </div>
+    <div class="contactRight">
             <h1>Kontakt</h1>
             <p>email: testemail@gmail.com</p>
             <p>tel: 123456789</p>
@@ -133,7 +136,7 @@ if(!empty($_GET['empty'])){
     <!-- Footer -->
       <footer class=" text-center text-white mt-auto" style="background-color:#212529;">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2022 Copyright: Launch demo modal
+          © 2022 Copyright: Kamil Pawlak
         </div>
       </footer>
       <!-- Footer -->

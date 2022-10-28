@@ -28,7 +28,7 @@ if(!empty($_GET['empty'])){
      <!--navbar-->
      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Minerals Shop</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -236,10 +236,7 @@ if(!empty($_GET['empty'])){
     <!-- Footer -->
       <footer class=" text-center text-white mt-auto" style="background-color:#212529;">
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2022 Copyright: 
-          <a class="text-white" href="#" data-bs-toggle="modal" data-bs-target="#owner">
-            Launch demo modal
-          </a>
+          © 2022 Copyright: Kamil Pawlak
         </div>
       </footer>
       <!-- Footer -->

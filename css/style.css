@@ -44,14 +44,60 @@ html{
 #container{
     margin-top:50%;
 }
+.contact
+{
+    margin-top: 4rem;
+    width: 100%;
+    padding:5rem;
+    align-items: center;
+}
 .contactIMG{
-position: absolute;
-top:15%;
-left:16%;
+
+float:left;
+margin-left:10rem;
 }
 .contactRight{
-    position: absolute;
-    top:10%;
-    left:150%;
-    width:300px;
+
+   float:left;
+
+}
+@media only screen and (max-width:1500px)
+{
+    .contactIMG{
+        margin-left:auto 0rem;
+    }
+    .contactRight{
+        margin-left:0rem;
+    }
+
+}
+
+@media only screen and (max-width:1200px)
+{
+    .contactIMG{
+        display:none;
+    }
+    .contactRight{
+        margin-left:0rem;
+    }
+    .contact{
+        padding:2rem;
+    }
+
+}
+@media only screen and (max-height:950px)
+{
+    .contactIMG{
+        display:none;
+    }
+    .contactRight{
+        margin-left:0rem;
+    }
+
+}
+@media only screen and (max-height:800px)
+{
+    .contactRight{
+        display:none;
+    }
 }
